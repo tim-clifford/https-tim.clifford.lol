@@ -1,21 +1,22 @@
 {
-  "name": "draculatheme.com",
+  "name": "tim.clifford.lol",
   "version": "4.0.0",
-  "description": "A dark website for an amazing theme",
+  "description": "the incoherent ramblings of an average engineering student",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "export": "next export",
     "xml": "babel-node xml.js",
-    "deploy": "npm run sitemap && vercel --prod"
+    "deploy": "scp -r out/* srcf:public_html/"
   },
-  "author": "Zeno Rocha",
+  "author": "Tim Clifford",
   "license": "MIT",
   "dependencies": {
     "airtable": "^0.10.1",
     "color-convert": "^2.0.1",
     "countries-list": "^2.6.0",
     "date-fns": "^2.16.1",
+    "depcheck": "^1.4.0",
     "download": "^8.0.0",
     "gh-pages": "^2.1.1",
     "googleapis": "^49.0.0",

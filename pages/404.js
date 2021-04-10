@@ -9,15 +9,14 @@ class CustomError extends React.Component {
     const description = 'Page Not Found';
 
     return (
-      <div style={{ background: '#282a36', height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      <div style={{ background: '#20222b', height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         <Head>
           <meta charSet="utf-8" />
           <title>{title}</title>
           <meta content={title} property="og:title" />
           <meta content={description} name="description" />
           <meta content={description} property="og:description" />
-          <meta content="Zeno Rocha" name="author" />
-          <meta content="https://draculatheme.com/static/img/facebook.png" property="og:image" />
+          <meta content="Tim Clifford" name="author" />
         </Head>
 
         <div>

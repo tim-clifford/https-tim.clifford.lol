@@ -4,7 +4,7 @@
 }
 
 body {
-  background: #383a59;
+  background: #2d2e47;
   color: #f2f2f2;
   font-family: "Source Sans Pro";
   font-weight: 300;
@@ -573,7 +573,7 @@ a {
    ========================================================================== */
 
 .single .wrap {
-  background: #282a36;
+  background: #20222b;
   padding: 80px 0;
 }
 
@@ -695,7 +695,7 @@ a {
   width: 48px;
   height: 396px;
   transform: translateX(222px) rotateY(90deg);
-  background: linear-gradient(90deg, 
+  background: linear-gradient(90deg,
     #fff 0%,
     #f9f9f9 5%,
     #fff 10%,

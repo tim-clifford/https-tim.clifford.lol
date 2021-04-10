@@ -1,13 +1,12 @@
 import Blogpost from '../../layouts/Blogpost';
-import Updates from '../../components/Updates';
 import BlogDate from '../../components/BlogDate';
 import { getAllPosts } from '../../lib/blog';
 import Head from 'next/head';
 import Link from 'next/link';
 
 function Blog({ allPosts }) {
-  const title = 'Blog — Dracula Theme';
-  const description = 'The journey of building the most universal dark theme ever made.';
+  const title = 'Blog — Tim Clifford';
+  const description = 'The incoherent ramblings of an average engineering student';
   const image = '/static/img/facebook.png';
 
   return <div className="single">
@@ -17,9 +16,9 @@ function Blog({ allPosts }) {
       <meta content={title} property="og:title" />
       <meta content={description} name="description" />
       <meta content={description} property="og:description" />
-      <meta content="Zeno Rocha" name="author" />
-      <meta content="https://draculatheme.com/blog" property="og:url" />
-      <meta content={`https://draculatheme.com${image}`} property="og:image" />
+      <meta content="Tim Clifford" name="author" />
+      <meta content="https://tim.clifford.lol/blog" property="og:url" />
+      <meta content={`https://tim.clifford.lol${image}`} property="og:image" />
     </Head>
 
     <div className="wrap">
@@ -44,9 +43,6 @@ function Blog({ allPosts }) {
       </div>
     </div>
 
-    <div className="blog-updates">
-      <Updates type="blog" />
-    </div>
   </div>
 }
 

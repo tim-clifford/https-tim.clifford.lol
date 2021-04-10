@@ -7,12 +7,12 @@ class Topbar extends Component {
     return <div className={styles.fixed}>
       <nav className={styles.topbar}>
         <Link href="/">
-          <a className="topbar-title">Dracula</a>
+          <a className="topbar-title">About</a>
         </Link>
         <ul>
           <li className={styles.items}>
-            <Link href="/about">
-              <a>About</a>
+            <Link href="/dracula">
+              <a>Dracula</a>
             </Link>
           </li>
           <li className={styles.items}>
@@ -20,20 +20,8 @@ class Topbar extends Component {
               <a>Blog</a>
             </Link>
           </li>
-          <li className={styles.items}>
-            <Link href="/contribute">
-              <a>Contribute</a>
-            </Link>
-          </li>
-          <li className={styles.items}>
-            <Link href="/ui">
-              <a>Dracula UI</a>
-            </Link>
-          </li>
           <li>
-            <Link href="/pro">
-              <a className={styles.cta}>Dracula PRO</a>
-            </Link>
+              <a href="https://github.com/tim-clifford" className={styles.cta}>GitHub</a>
           </li>
         </ul>
       </nav>

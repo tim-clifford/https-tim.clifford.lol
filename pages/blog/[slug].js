@@ -4,7 +4,6 @@ import { useRouter } from 'next/router'
 import { BlogJsonLd } from 'next-seo';
 import Blogpost from '../../layouts/Blogpost';
 import BlogDate from '../../components/BlogDate';
-import Updates from '../../components/Updates';
 import { getPostBySlug, getAllPosts, convertMarkdownToHtml } from '../../lib/blog';
 
 function Post({ post }) {
@@ -41,9 +40,6 @@ function Post({ post }) {
       </div>
     </div>
 
-    <div className="blog-updates">
-      <Updates type="blog" />
-    </div>
 
     <BlogJsonLd
       url={url}

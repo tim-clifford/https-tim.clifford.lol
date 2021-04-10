@@ -1,5 +1,5 @@
 .main {
-  background: #282a36;
+  background: #20222b;
   padding: 80px 0 0;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .button {
-  background: #282a36;
+  background: #20222b;
   border: 1px solid rgba(189, 147, 249, 1);
   color: #BCC2CD;
   cursor: pointer;
@@ -73,7 +73,7 @@
   height: 37px;
   font-family: "Source Sans Pro";
   font-size: 20px;
-  background: #282a36;
+  background: #20222b;
   color: #fff;
   border: 1px solid rgba(189, 147, 249, 1);
   border-radius: 4px;

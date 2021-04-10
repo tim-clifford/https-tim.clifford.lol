@@ -1,12 +1,13 @@
-# draculatheme.com
+# tim.clifford.lol
 
-> This repo contains the source code for [draculatheme.com](https://draculatheme.com).
+This repo contains the source code for
+[tim.clifford.lol](https://tim.clifford.lol). It's based heavily on
+[draculatheme.com](https://draculatheme.com)
 
-![Screenshot](./screenshot.png)
+## How does it work?
 
-## How it works?
-
-We use [Next.js](https://nextjs.org/), a React framework that does static exporting.
+It uses [Next.js](https://nextjs.org/), a React framework that does static
+exporting. It is hosted on the [SRCF](https://srcf.net)
 
 ## Getting Started
 
@@ -15,13 +16,13 @@ We use [Next.js](https://nextjs.org/), a React framework that does static export
 2. Now clone this repository:
 
     ```sh
-    $ git clone https://github.com/dracula/draculatheme.com.git
+    $ git clone https://github.com/dracula/tim.clifford.lol.git
     ```
 
 3. Then go to the project's folder:
 
     ```sh
-    $ cd draculatheme.com
+    $ cd tim.clifford.lol
     ```
 
 4. Install all dependencies:
@@ -44,14 +45,9 @@ We use [Next.js](https://nextjs.org/), a React framework that does static export
 
 Now you can see the website running in `localhost:3000` :D
 
-## Deploy
-
-If you're a collaborator, you can publish the site to GitHub Pages by running:
-
-```sh
-$ npm run deploy
-```
-
 ## License
 
-[MIT License](./LICENSE) © Dracula Theme
+[BSD 3-Clause License](./LICENSE) © Tim Clifford
+
+Many parts are taken from [draculatheme.com](https://draculatheme.com), which
+is licensed according to [LICENSE.dracula](./LICENSE.dracula)

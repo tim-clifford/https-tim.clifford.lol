@@ -2,10 +2,7 @@ import App from 'next/app';
 import Router from 'next/router';
 
 import '../styles/main.css';
-import * as gtag from '../lib/gtag';
 import easterEgg from '../lib/easter-egg';
-
-Router.events.on('routeChangeComplete', url => gtag.pageview(url));
 
 const Noop = ({ children }) => children
 
