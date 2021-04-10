@@ -1,4 +1,4 @@
-// vi: set sts=2 sw=2 et
+// vi: sts=2 sw=2 et
 import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
@@ -22,7 +22,7 @@ class Index extends React.Component {
   }
 
   render() {
-    const title = 'About';
+    const title = 'Tim Clifford';
     const description = 'Hi!';
     const image = '/static/img/about.jpeg';
 
@@ -43,6 +43,11 @@ class Index extends React.Component {
           <div className="theme">
             <h2 style={{color:"#8be9fd"}}>GitHub Stats</h2>
             <p />
+            <p>
+              Python is much higher than it should be, I have been writing a
+              lot of Vimscript and shell recently...
+            </p>
+            <p />
             <a href="https://github.com/anuraghazra/github-readme-stats">
               <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tim-clifford&layout=compact&theme=dracula&langs_count=6&hide_border=true&card_width=445" width="49.3%"/>
             </a>
@@ -56,7 +61,7 @@ class Index extends React.Component {
               Seriously, how long do you spend in front of a computer? Why not
               make it as efficient and comfortable as possible? For me that
               means ditching a mouse and integrating things together. Here are
-		      some projects that help me do that.
+              some projects that help me do that.
             </p>
             <p />
             <a href="https://github.com/tim-clifford/vim-venus">

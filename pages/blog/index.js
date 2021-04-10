@@ -5,7 +5,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 
 function Blog({ allPosts }) {
-  const title = 'Blog — Tim Clifford';
+  const title = 'Tim Clifford — Blog';
   const description = 'The incoherent ramblings of an average engineering student';
   const image = '/static/img/facebook.png';
 
@@ -21,8 +21,22 @@ function Blog({ allPosts }) {
       <meta content={`https://tim.clifford.lol${image}`} property="og:image" />
     </Head>
 
+
     <div className="wrap">
       <div className="blog">
+        <div className="cyan">
+          <div className="blog-item">
+            <div className="blog-item-header">
+              <h2 className="blog-item-title">Stay Tuned</h2>
+              <span className="blog-item-date">
+                <BlogDate dateString="2021-04-10" />
+              </span>
+            </div>
+            <div className="blog-item-excerpt">
+              Blog posts are coming soon...
+		    </div>
+          </div>
+        </div>
         {allPosts.map(post => {
           return <div className={post.color} key={post.slug}>
             <div className="blog-item">

@@ -3,13 +3,13 @@ import Head from 'next/head';
 import Theme from '../layouts/Theme';
 
 export async function getStaticProps() {
-  const query = { title: 'Dracula Theme', color: 'pink'};
+  const query = { title: 'Dracula Themes', color: 'pink'};
   return { props: { query } };
 }
 
 class Dracula extends React.Component {
   render() {
-    const title = 'Dracula — Some themes I\'ve contributed to';
+    const title = 'Tim Clifford — Dracula Themes';
     const description = '';
     const image = '/static/img/dracula.jpeg';
 

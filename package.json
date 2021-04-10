@@ -7,7 +7,8 @@
     "build": "next build",
     "export": "next export",
     "xml": "babel-node xml.js",
-    "deploy": "scp -r out/* srcf:public_html/"
+    "deploy": "scp -r out/* srcf:public_html/",
+	"all": "npm run build && npm run xml && npm run export && npm run deploy"
   },
   "author": "Tim Clifford",
   "license": "MIT",

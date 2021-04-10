@@ -7,7 +7,7 @@ class Topbar extends Component {
     return <div className={styles.fixed}>
       <nav className={styles.topbar}>
         <Link href="/">
-          <a className="topbar-title">About</a>
+          <a className="topbar-title">Home</a>
         </Link>
         <ul>
           <li className={styles.items}>
