@@ -4,7 +4,7 @@ class Footer extends Component {
   render() {
     return <div style={{ background: '#20222b', padding: '60px 0' }}>
       <p className="credits">
-		Design is from <a className="cyan" href="https://draculatheme.com" target="blank">draculatheme.com</a>,
+		The design is from <a className="cyan" href="https://draculatheme.com" target="blank">draculatheme.com</a>,
 		<br />
 		made with <span className="love">♥</span> by <a className="green" href="https://zenorocha.com" target="blank">Zeno Rocha</a>
         <br />

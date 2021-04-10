@@ -1,3 +1,4 @@
+// vi: sts=2 sw=2 et
 import React from 'react';
 import Head from 'next/head';
 import Theme from '../layouts/Theme';
@@ -64,6 +65,15 @@ class Dracula extends React.Component {
             <a href="https://github.com/dracula/freecad">
               <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=dracula&repo=freecad&show_owner=true&theme=dracula&hide_border=true" width="32.7%"/>
             </a>
+			<p>
+              <center>
+                <br />
+                Check out&nbsp;
+                <a href="https://draculatheme.com">
+                  draculatheme.com
+                </a> for more themes
+              </center>
+			</p>
           </div>
         </div>
       </div>

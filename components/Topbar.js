@@ -21,6 +21,9 @@ class Topbar extends Component {
             </Link>
           </li>
           <li>
+              <a href="https://linkedin.com/in/tim-h-clifford">LinkedIn</a>
+          </li>
+          <li>
               <a href="https://github.com/tim-clifford" className={styles.cta}>GitHub</a>
           </li>
         </ul>
