@@ -1,4 +1,5 @@
 import Blogpost from '../../layouts/Blogpost';
+import Updates from '../../components/Updates';
 import BlogDate from '../../components/BlogDate';
 import { getAllPosts } from '../../lib/blog';
 import Head from 'next/head';
@@ -7,7 +8,7 @@ import Link from 'next/link';
 function Blog({ allPosts }) {
   const title = 'Tim Clifford — Blog';
   const description = 'The incoherent ramblings of an average engineering student';
-  const image = '/static/img/facebook.png';
+  const image = '';
 
   return <div className="single">
     <Head>
@@ -44,6 +45,9 @@ function Blog({ allPosts }) {
       </div>
     </div>
 
+    <div className="blog-updates">
+      <Updates type="blog" />
+    </div>
   </div>
 }
 
