@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^tim\.clifford\.lol$ [NC]
+RewriteRule ^(.*)$ https://tim.clifford.lol%{REQUEST_URI} [L,R=301]
