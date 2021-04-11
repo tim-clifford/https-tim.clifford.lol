@@ -10,17 +10,17 @@ class Topbar extends Component {
           <a className="topbar-title">Home</a>
         </Link>
         <ul>
-          <li className={styles.items}>
+          <li>
             <Link href="/dracula">
               <a>Dracula</a>
             </Link>
           </li>
-          <li className={styles.items}>
+          <li>
             <Link href="/blog">
               <a>Blog</a>
             </Link>
           </li>
-          <li>
+          <li className={styles.items}>
               <a href="https://linkedin.com/in/tim-h-clifford">LinkedIn</a>
           </li>
           <li>

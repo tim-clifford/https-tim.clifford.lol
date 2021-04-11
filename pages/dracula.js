@@ -35,9 +35,6 @@ class Dracula extends React.Component {
 		      contributed several implementations of the theme...
 		   </p>
 
-            <a href="https://github.com/tim-clifford/dracula-contrib-generator">
-              <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=tim-clifford&repo=dracula-contrib-generator&theme=dracula&hide_border=true" width="32.7%"/>
-            </a>
             <a href="https://github.com/dracula/matplotlib">
               <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=dracula&repo=matplotlib&show_owner=true&theme=dracula&hide_border=true" width="32.7%"/>
             </a>

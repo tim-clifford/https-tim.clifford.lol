@@ -16,7 +16,7 @@ exporting. It is hosted on the [SRCF](https://srcf.net)
 2. Now clone this repository:
 
     ```sh
-    $ git clone https://github.com/dracula/tim.clifford.lol.git
+    $ git clone https://github.com/tim-clifford/tim.clifford.lol.git
     ```
 
 3. Then go to the project's folder:
