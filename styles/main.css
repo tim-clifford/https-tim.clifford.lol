@@ -263,11 +263,12 @@ h4 {
 }
 
 code {
-  font-family: "Source Sans Pro";
+  font-family: "Monospace";
+  font-size: 0.7em;
 }
 
 pre {
-  background-color: #252525;
+  background-color: #282a36;
   padding: 20px;
   margin: 0 0 2em 0;
   border-radius: 5px;
