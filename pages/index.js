@@ -48,11 +48,20 @@ class Index extends React.Component {
               <a href="mailto:tclifford@protonmail.com">tclifford@protonmail.com</a>
               &nbsp;or <a href="mailto:tim@cusf.co.uk">tim@cusf.co.uk</a>
             </p>
-            <h2 style={{color:"#8be9fd"}}>GitHub Stats</h2>
+            <h2 style={{color:"#8be9fd"}}>CUSF</h2>
             <p />
             <p>
-              Python is much higher than it should be, I have been writing a
-              lot of Vimscript and shell recently...
+              Currently I am the Treasurer and Sponsorship/Industrial Liason
+              for Cambridge University Spaceflight, a student society aiming to
+              reach the Karman Line by 2023. For more information, visit our
+              website <a href="https://www.cusf.co.uk">here</a>
+            </p>
+            <p />
+            <h2 style={{color:"#50fa7b"}}>GitHub Stats</h2>
+            <p />
+            <p>
+              Here are my stats on GitHub, where I develop software and
+              contribute to various free and open source projects
             </p>
             <p />
             <a href="https://github.com/anuraghazra/github-readme-stats">
@@ -62,23 +71,24 @@ class Index extends React.Component {
               <img align="center" src="https://github-readme-stats.vercel.app/api?username=tim-clifford&show_icons=true&theme=dracula&include_all_commits=true&hide_title=true&count_private=true&hide_border=true" width="49.3%"/>
             </a>
             <p />
-            <h2 style={{color:'#50fa7b'}}>Good workflow is worth the development time</h2>
+            <h2 style={{color:"#f1fa8c"}}>Good workflow is worth the development time</h2>
             <p />
             <p>
-              Seriously, how long do you spend in front of a computer? Why not
-              make it as efficient and comfortable as possible? For me that
-              means ditching a mouse and integrating things together. Here are
-              some projects that help me do that.
+              We spend so much of our lives sitting in front of computers that
+              it's really worth taking the extra time to make it as efficient
+              and comfortable as possible. Here are some projects that help me do that.
+              &nbsp;
             </p>
+            <p><i>
+                See also&nbsp;
+                <a href="https://tim.clifford.lol/dracula">Dracula</a>
+            </i></p>
             <p />
-            <a href="https://github.com/tim-clifford/vim-venus">
-              <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=tim-clifford&repo=vim-venus&theme=dracula&hide_border=true" width="32.7%"/>
+            <a href="https://github.com/tim-clifford/.config">
+              <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=tim-clifford&repo=.config&theme=dracula&hide_border=true" width="32.7%"/>
             </a>
             <a href="https://github.com/tim-clifford/charon">
-              <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=tim-clifford&repo=charon&theme=dracula&hide_border=true" width="32.7%"/>
-            </a>
-            <a href="https://github.com/tim-clifford/ols-git-tools">
-              <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=tim-clifford&repo=ols-git-tools&theme=dracula&hide_border=true" width="32.7%"/>
+             <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=tim-clifford&repo=charon&theme=dracula&hide_border=true" width="32.7%"/>
             </a>
             <a href="https://github.com/tim-clifford/ErgoDash-R">
               <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=tim-clifford&repo=ErgoDash-R&theme=dracula&hide_border=true" width="32.7%"/>
@@ -86,20 +96,26 @@ class Index extends React.Component {
             <a href="https://github.com/tim-clifford/nvimrc">
               <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=tim-clifford&repo=nvimrc&theme=dracula&hide_border=true" width="32.7%"/>
             </a>
-            <a href="https://github.com/tim-clifford/.config">
-              <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=tim-clifford&repo=.config&theme=dracula&hide_border=true" width="32.7%"/>
+            <a href="https://github.com/tim-clifford/vim-venus">
+              <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=tim-clifford&repo=vim-venus&theme=dracula&hide_border=true" width="32.7%"/>
+            </a>
+            <a href="https://github.com/tim-clifford/vim-qalc">
+              <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=tim-clifford&repo=vim-qalc&theme=dracula&hide_border=true" width="32.7%"/>
             </a>
             <p />
-            <h2 style={{color:"#f1fa8c"}}>Other Projects</h2>
+            <h2 style={{color:"#ff79c6"}}>Other Projects</h2>
             <p />
-            <a href="https://github.com/tim-clifford/astrodynamics-sim">
-              <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=tim-clifford&repo=astrodynamics-sim&theme=dracula&hide_border=true" width="32.7%"/>
-            </a>
+            <p>
+              Fun things I've worked on in the past
+            </p>
             <a href="https://github.com/tim-clifford/pixel-prime">
               <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=tim-clifford&repo=pixel-prime&theme=dracula&hide_border=true" width="32.7%"/>
             </a>
             <a href="https://github.com/tim-clifford/casio-cpong">
               <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=tim-clifford&repo=casio-cpong&theme=dracula&hide_border=true" width="32.7%"/>
+            </a>
+            <a href="https://github.com/tim-clifford/astrodynamics-sim">
+              <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=tim-clifford&repo=astrodynamics-sim&theme=dracula&hide_border=true" width="32.7%"/>
             </a>
             <p />
           </div>
