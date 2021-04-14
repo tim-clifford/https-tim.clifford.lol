@@ -7,7 +7,12 @@ import Theme from '../layouts/Theme';
 import styles from './index.module.css';
 
 export async function getStaticProps() {
-  const query = { title: 'Tim Clifford', color: 'purple', icon: 'pack-1/045-dracula.svg' }
+  const query = { title: 'Tim Clifford',
+                  subtitle: 'Download my GPG public key',
+                  subtitle_link: '/tim_clifford.gpg',
+                  subtitle_color: '#6272a4',
+                  color: 'purple',
+                }
   const isProd = process.env.NODE_ENV === 'production';
   const base = isProd ? 'https://tim.clifford.lol' : 'http://localhost:3000';
 
