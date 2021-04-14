@@ -87,8 +87,8 @@ class Index extends React.Component {
             <a href="https://github.com/tim-clifford/.config">
               <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=tim-clifford&repo=.config&theme=dracula&hide_border=true" width="32.7%"/>
             </a>
-            <a href="https://github.com/tim-clifford/charon">
-             <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=tim-clifford&repo=charon&theme=dracula&hide_border=true" width="32.7%"/>
+            <a href="https://github.com/smh-my-head/charon">
+             <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=smh-my-head&repo=charon&theme=dracula&hide_border=true" width="32.7%"/>
             </a>
             <a href="https://github.com/tim-clifford/ErgoDash-R">
               <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=tim-clifford&repo=ErgoDash-R&theme=dracula&hide_border=true" width="32.7%"/>
