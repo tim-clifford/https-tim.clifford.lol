@@ -1,8 +1,6 @@
 // vi: sts=2 sw=2 et
 import { Component } from 'react';
-import Link from 'next/link';
 import Topbar from './Topbar';
-import GitHubButton from 'react-github-btn';
 
 class Header extends Component {
   constructor(props) {

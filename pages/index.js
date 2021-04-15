@@ -8,9 +8,6 @@ import styles from './index.module.css';
 
 export async function getStaticProps() {
   const query = { title: 'Tim Clifford',
-                  subtitle: 'Download my GPG public key',
-                  subtitle_link: '/tim_clifford.gpg',
-                  subtitle_color: '#6272a4',
                   color: 'purple',
                 }
   const isProd = process.env.NODE_ENV === 'production';
@@ -52,6 +49,9 @@ class Index extends React.Component {
               email me at&nbsp;
               <a href="mailto:tclifford@protonmail.com">tclifford@protonmail.com</a>
               &nbsp;or <a href="mailto:tim@cusf.co.uk">tim@cusf.co.uk</a>
+            </p>
+            <p>
+              Download my GPG public key <a href="/tim_clifford.gpg">here</a>
             </p>
             <h2 style={{color:"#8be9fd"}}>CUSF</h2>
             <p />

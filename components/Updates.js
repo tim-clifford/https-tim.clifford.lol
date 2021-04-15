@@ -4,7 +4,7 @@ import { Component } from 'react';
 class Updates extends Component {
   render() {
     let title = 'Stay up to date';
-    let description = 'All my rants, straight to your inbox.';
+    let description = 'Get updates on projects, themes, and other rants';
     return <div >
       <h3>{title}</h3>
       <p>{description}</p>
