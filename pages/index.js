@@ -92,20 +92,20 @@ class Index extends React.Component {
             <a href="https://github.com/tim-clifford/.config">
               <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=tim-clifford&repo=.config&theme=dracula&hide_border=true" width="32.7%"/>
             </a>
-            <a href="https://github.com/smh-my-head/charon">
-             <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=smh-my-head&repo=charon&theme=dracula&hide_border=true" width="32.7%"/>
-            </a>
-            <a href="https://github.com/tim-clifford/ErgoDash-R">
-              <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=tim-clifford&repo=ErgoDash-R&theme=dracula&hide_border=true" width="32.7%"/>
-            </a>
             <a href="https://github.com/tim-clifford/nvimrc">
               <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=tim-clifford&repo=nvimrc&theme=dracula&hide_border=true" width="32.7%"/>
             </a>
             <a href="https://github.com/tim-clifford/vim-venus">
               <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=tim-clifford&repo=vim-venus&theme=dracula&hide_border=true" width="32.7%"/>
             </a>
-            <a href="https://github.com/tim-clifford/vim-qalc">
-              <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=tim-clifford&repo=vim-qalc&theme=dracula&hide_border=true" width="32.7%"/>
+            <a href="https://github.com/smh-my-head/charon">
+             <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=smh-my-head&repo=charon&theme=dracula&hide_border=true" width="32.7%"/>
+            </a>
+            <a href="https://github.com/smh-my-head/hades">
+             <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=smh-my-head&repo=hades&theme=dracula&hide_border=true" width="32.7%"/>
+            </a>
+            <a href="https://github.com/tim-clifford/ErgoDash-R">
+              <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=tim-clifford&repo=ErgoDash-R&theme=dracula&hide_border=true" width="32.7%"/>
             </a>
             <p />
             <h2 style={{color:"#ff79c6"}}>Other Projects</h2>
