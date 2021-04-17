@@ -2,7 +2,7 @@
 title: "Dracula for SolidWorks?!?!?"
 excerpt: "Hah! Who says proprietary programs can't be themed?? SolidWorks never stood a chance. I even edited a DLL with vim."
 createdAt: "2021-04-12"
-updatedAt: "2021-04-12"
+updatedAt: "2021-04-17"
 author:
   name: Tim Clifford
   avatar: "https://github.com/tim-clifford.png?size=48"
@@ -20,6 +20,9 @@ chance. I even edited a DLL with vim.
   <figcaption>Dracula for SolidWorks</figcaption>
   </center>
 </figure>
+
+*You can find the theme with full install instructions
+[here](https://draculatheme.com/solidworks).*
 
 <h2 style="color: #8be9fd">
 Why?
@@ -103,9 +106,5 @@ Anyway, naturally, I then wrote a script to change the colors and voilà,
 Dracula for Solidworks. But the story's not over. Have you been wondering why
 there are still ugly grey bits in the screenshot? Yeah. I found the variables
 for that, and tried to change them. SolidWorks refused to start.
-
-That's all from me, you can find the theme with full install instructions
-[here](https://github.com/tim-clifford/dracula-solidworks). The URLs will
-bounce until it becomes an official theme, which should be soon...
 
 <!-- vi: set sts=2 sw=2 et :-->

@@ -62,6 +62,9 @@ class Dracula extends React.Component {
             <a href="https://github.com/dracula/freecad">
               <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=dracula&repo=freecad&show_owner=true&theme=dracula&hide_border=true" width="32.7%"/>
             </a>
+            <a href="https://github.com/dracula/solidworks">
+              <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=dracula&repo=solidworks&show_owner=true&theme=dracula&hide_border=true" width="32.7%"/>
+            </a>
 			<p>
               <center>
                 <br />
