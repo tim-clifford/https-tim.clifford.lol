@@ -1,3 +1,8 @@
 RewriteEngine On
+
+RewriteRule ^pgp$ https://tim.clifford.lol/tim_clifford.gpg [L,R=301]
+RewriteRule ^gpg$ https://tim.clifford.lol/tim_clifford.gpg [L,R=301]
+
 RewriteCond %{HTTP_HOST} !^tim\.clifford\.lol$ [NC]
 RewriteRule ^(.*)$ https://tim.clifford.lol%{REQUEST_URI} [L,R=301]
+

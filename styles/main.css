@@ -783,6 +783,11 @@ a {
    Blog
    ========================================================================== */
 
+.inner-div {
+	float: left;
+	margin-right: 10px;
+}
+
 .cyan .blog-item-title,
 .cyan .blog h1 {
   color: rgba(139, 233, 253, 1) !important;
