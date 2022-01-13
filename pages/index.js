@@ -47,7 +47,7 @@ class Index extends React.Component {
               Hi! I'm Tim. I'm an engineering student, space enthusiast, and
               avid contributor to free and open source projects. Feel free to
               email me at&nbsp;
-              <a href="mailto:tclifford@protonmail.com">tclifford@protonmail.com</a>
+              <a href="mailto:tim@clifford.lol">tim@clifford.lol</a>
               &nbsp;or <a href="mailto:tim@cusf.co.uk">tim@cusf.co.uk</a>
             </p>
             <p>
