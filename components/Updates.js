@@ -4,14 +4,14 @@ import { Component } from 'react';
 class Updates extends Component {
   render() {
     let title = 'Stay up to date';
-    let description = 'Get updates on projects, themes, and other rants';
+    let description = 'All the rants, straight to your inbox';
     return <div >
       <h3>{title}</h3>
       <p>{description}</p>
-
-      <iframe class="mj-w-res-iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://app.mailjet.com/widget/iframe/6FKH/Izn" width="100%"></iframe>
-      <script type="text/javascript" src="https://app.mailjet.com/statics/js/iframeResizer.min.js"></script>
-
+      <form method="post" action="https://lists.srcf.net/mailman/subscribe/tc565-blog" className="form">
+        <input name="email" placeholder="Your email address" type="email"/>
+        <input type="submit" name="email-button" value="Subscribe"></input>
+      </form>
     </div>
 
 

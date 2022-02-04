@@ -334,7 +334,7 @@ a {
 .orange .theme a,
 .orange .theme h3,
 .orange .theme code,
-.orange .form input[type=email] {
+.orange .form input[type="email"] {
   color: rgba(255, 184, 108, 1);
 }
 
@@ -343,7 +343,7 @@ a {
   color: rgba(255, 184, 108, .7);
 }
 
-.orange .form input[type=submit] {
+.orange .form input[type="submit"] {
   background: rgba(255, 184, 108, 1);
 }
 
@@ -357,7 +357,7 @@ a {
 .pink .theme a,
 .pink .theme h3,
 .pink .theme code,
-.pink .form input[type=email] {
+.pink .form input[type="email"] {
   color: rgba(255, 121, 198, 1);
 }
 
@@ -366,7 +366,7 @@ a {
   color: rgba(255, 121, 198, .7);
 }
 
-.pink .form input[type=submit] {
+.pink .form input[type="submit"] {
   background: rgba(255, 121, 198, 1);
 }
 
@@ -380,7 +380,7 @@ a {
 .cyan .theme a,
 .cyan .theme h3,
 .cyan .theme code,
-.cyan .form input[type=email] {
+.cyan .form input[type="email"] {
   color: rgba(139, 233, 253, 1);
 }
 
@@ -389,7 +389,7 @@ a {
   color: rgba(139, 233, 253, .7);
 }
 
-.cyan .form input[type=submit] {
+.cyan .form input[type="submit"] {
   background: rgba(139, 233, 253, 1)
 }
 
@@ -403,7 +403,7 @@ a {
 .purple .theme a,
 .purple .theme h3,
 .purple .theme code,
-.purple .form input[type=email] {
+.purple .form input[type="email"] {
   color: rgba(189, 147, 249, 1);
 }
 
@@ -412,7 +412,7 @@ a {
   color: rgba(189, 147, 249, .7);
 }
 
-.purple .form input[type=submit] {
+.purple .form input[type="submit"] {
   background: rgba(189, 147, 249, 1);
 }
 
@@ -426,7 +426,7 @@ a {
 .yellow .theme a,
 .yellow .theme h3,
 .yellow .theme code,
-.yellow .form input[type=email] {
+.yellow .form input[type="email"] {
   color: rgba(241, 250, 140, 1);
 }
 
@@ -435,7 +435,7 @@ a {
   color: rgba(241, 250, 140, .7);
 }
 
-.yellow .form input[type=submit] {
+.yellow .form input[type="submit"] {
   background: rgba(241, 250, 140, 1);
 }
 
@@ -453,7 +453,7 @@ a {
 .green .theme a,
 .green .theme h3,
 .green .theme code,
-.green .form input[type=email] {
+.green .form input[type="email"] {
   color: rgba(80, 250, 123, 1);
 }
 
@@ -462,7 +462,7 @@ a {
   color: rgba(80, 250, 123, .7);
 }
 
-.green .form input[type=submit] {
+.green .form input[type="submit"] {
   background: rgba(80, 250, 123, 1);
 }
 
@@ -523,7 +523,7 @@ a {
   float: left !important;
 }
 
-.form input[type=email] {
+.form input[type="email"] {
   border-radius: 4px;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
@@ -544,7 +544,7 @@ a {
   height: 40px !important;
 }
 
-.form input[type=submit] {
+.form input[type="submit"] {
   border-radius: 4px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
@@ -764,7 +764,7 @@ a {
   max-width: 525px;
 }
 
-.journey-updates .form input[type=email] {
+.journey-updates .form input[type="email"] {
   font-size: 18px;
   background: #2a2c37;
   padding: 10px;
@@ -772,7 +772,7 @@ a {
   height: 50px !important;
 }
 
-.journey-updates .form input[type=submit] {
+.journey-updates .form input[type="submit"] {
   color: #000;
   font-size: 18px;
   font-family: "Fira Code", monospace;
