@@ -7,8 +7,13 @@ $error = "";
 if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
   $error.="Invalid email address. If you're trying to hack me I'll be mad 😠";
 } else {
-	if (!shell_exec("echo '".$email."' | ssh pip srcf-mailman-add tc565-blog >> /home/tc565/logs/web-mailman 2>&1"))
-		$error = "Failed to add email address. Please email me so I can fix it :)";
+	// fix ' so nobody can attack pip 😠
+	$email = str_replace("'", "'\"'\"'", $email);
+	$output = null;
+	$retval = null;
+	exec("echo '".$email."' | ssh pip srcf-mailman-add tc565-blog >> /home/tc565/logs/web-mailman 2>&1", $output, $retval);
+	if ($retval != 0)
+		$error = "Failed to add email address. Please email me so I can fix it :) Exit code: ".$retval;
 }
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
