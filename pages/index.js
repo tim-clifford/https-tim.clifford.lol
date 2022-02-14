@@ -56,17 +56,19 @@ class Index extends React.Component {
             <h2 style={{color:"#8be9fd"}}>CUSF</h2>
             <p />
             <p>
-              Currently I am the Treasurer and Sponsorship/Industrial Liason
-              for Cambridge University Spaceflight, a student society aiming to
-              reach the Karman Line by 2023. For more information, visit our
-              website <a href="https://www.cusf.co.uk">here</a>
+              Currently I am the Treasurer and Head of DevOps for Cambridge
+              University Spaceflight, a student society aiming to reach the
+              Karman Line by 2023. For more information, visit our website <a
+              href="https://www.cusf.co.uk">here</a>
             </p>
             <p />
             <h2 style={{color:"#50fa7b"}}>GitHub Stats</h2>
             <p />
             <p>
-              Here are my stats on GitHub, where I develop software and
-              contribute to various free and open source projects
+              I don't use GitHub anymore because it's proprietary: I use&nbsp;
+              <a href="https://sourcehut.org">sourcehut</a> instead. These
+              stats are fun though (and I do intend to mirror most
+              projects to GitHub anyway).
             </p>
             <p />
             <a href="https://github.com/anuraghazra/github-readme-stats">
