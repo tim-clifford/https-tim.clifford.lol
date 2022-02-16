@@ -1,8 +1,8 @@
-# tim.clifford.lol
+# https tim.clifford.lol
 
 This repo contains the source code for
-[tim.clifford.lol](https://tim.clifford.lol). It's based heavily on
-[draculatheme.com](https://draculatheme.com)
+[https://tim.clifford.lol](https://tim.clifford.lol). It's based heavily on
+[https://draculatheme.com](https://draculatheme.com)
 
 ## How does it work?
 
@@ -16,13 +16,13 @@ exporting. It is hosted on the [SRCF](https://srcf.net)
 2. Now clone this repository:
 
     ```sh
-    $ git clone https://github.com/tim-clifford/tim.clifford.lol.git
+    $ git clone https://github.com/tim-clifford/https-tim.clifford.lol.git
     ```
 
 3. Then go to the project's folder:
 
     ```sh
-    $ cd tim.clifford.lol
+    $ cd https-tim.clifford.lol
     ```
 
 4. Install all dependencies:
