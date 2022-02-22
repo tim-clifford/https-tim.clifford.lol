@@ -7,7 +7,7 @@ class Topbar extends Component {
     return <div className={styles.fixed}>
       <nav className={styles.topbar}>
         <Link href="/">
-          <a className="topbar-title">Home</a>
+          <a className="topbar-title"><img className="topbar-img" src="/avatar.png"/></a>
         </Link>
         <ul>
           <li>
@@ -20,11 +20,8 @@ class Topbar extends Component {
               <a>Blog</a>
             </Link>
           </li>
-          <li className={styles.items}>
-              <a href="https://linkedin.com/in/tim-h-clifford">LinkedIn</a>
-          </li>
           <li>
-              <a href="https://github.com/tim-clifford" className={styles.cta}>GitHub</a>
+              <a href="https://sr.ht/~tim-clifford" className={styles.cta}>SourceHut</a>
           </li>
         </ul>
       </nav>

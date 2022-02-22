@@ -5,7 +5,7 @@ createdAt: "2022-02-04"
 updatedAt: "2022-02-04"
 author:
   name: Tim Clifford
-  avatar: "https://github.com/tim-clifford.png?size=48"
+  avatar: "/avatar_48.png"
 ogImage: ""
 color: "pink"
 ---

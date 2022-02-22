@@ -37,7 +37,7 @@ body {
 }
 
 .header {
-  padding: 140px 0 80px;
+  padding: 100px 0 40px;
   height: auto;
   margin: 0 auto;
   justify-content: center;
@@ -65,6 +65,12 @@ body {
   display: inline-block;
   color: #f2f2f2;
   font-size: 24px;
+  width: 10%;
+}
+
+.topbar-img {
+  margin-top: 8px;
+  width: 50px;
 }
 
 .cyan .topbar-title:hover { color: rgba(139, 233, 253, 1); }

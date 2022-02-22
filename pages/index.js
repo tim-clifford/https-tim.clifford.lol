@@ -43,12 +43,12 @@ class Index extends React.Component {
 
         <div className="wrap">
           <div className="theme">
+            <h2 style={{color:"#bd93f9"}}>Hi!</h2>
+            <p />
             <p>
               Hi! I'm Tim. I'm an engineering student, space enthusiast, and
               avid contributor to free and open source projects. Feel free to
-              email me at&nbsp;
-              <a href="mailto:tim@clifford.lol">tim@clifford.lol</a>
-              &nbsp;or <a href="mailto:tim@cusf.co.uk">tim@cusf.co.uk</a>
+              email me at tim(@)clifford.lol or tim(@)cusf.co.uk
             </p>
             <p>
               Download my GPG public key <a href="/tim_clifford.gpg">here</a>

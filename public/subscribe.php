@@ -25,18 +25,13 @@ if (strlen($error) == 0) {
     <span>Successfully subscribed <?php echo $email?></span>
     <p/>
     <p>
-      Thanks for the support! You should receive email confirmation. Make
-      sure to note down the password included in the email, or you wont
-      be able to unsubscribe!
+      Thanks for the support! You should receive email confirmation. To
+      unsubscribe, email tc565-blog-request@srcf.net with subject line
+      "unsubscribe"
     </p>
     <p/>
     <p>
-      To unsubscribe, email tc565-blog-request@srcf.net with subject line
-      "unsubscribe &lt;password&gt;"
-    </p>
-    <p/>
-    <p>
-      PS: I know this page is ugly, it\'s a PHP bodge :P
+      PS: I know this page is ugly, it's a PHP bodge :P
     </p>
 <?php
 } else {
