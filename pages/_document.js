@@ -6,6 +6,7 @@ export default class extends Document {
     return (
       <html lang="en">
         <Head>
+          <link rel="icon" type="image/png" href="/avatar_48.png"/>
           <meta charSet="utf-8" />
           <meta content="width=device-width, initial-scale=1" name="viewport" />
           <meta property="og:type" content="website" />

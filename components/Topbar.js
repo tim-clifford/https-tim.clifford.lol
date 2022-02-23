@@ -7,7 +7,7 @@ class Topbar extends Component {
     return <div className={styles.fixed}>
       <nav className={styles.topbar}>
         <Link href="/">
-          <a className="topbar-title"><img className="topbar-img" src="/avatar.png"/></a>
+          <a className="topbar-title"><img className="topbar-img" src="/avatar_128.png"/></a>
         </Link>
         <ul>
           <li>

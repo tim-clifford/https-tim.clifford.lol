@@ -43,7 +43,8 @@ class Index extends React.Component {
 
         <div className="wrap">
           <div className="theme">
-            <h2 style={{color:"#bd93f9"}}>Hi!</h2>
+            <p />
+            <h1 style={{color:"#bd93f9"}}>Tim Clifford</h1>
             <p />
             <p>
               Hi! I'm Tim. I'm an engineering student, space enthusiast, and

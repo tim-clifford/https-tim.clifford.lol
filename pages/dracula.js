@@ -28,12 +28,15 @@ class Dracula extends React.Component {
         </Head>
         <div className="wrap">
           <div className="theme">
-			<p>
-			  Dracula is unequivocally the best theme. Dark themes are a no
-			  brainer - I like my eyeballs intact, thank you very much. And
-			  Dracula's colorscheme is simply gorgeous. With that in mind, I've
-		      contributed several implementations of the theme...
-		   </p>
+            <p/>
+            <h1 style={{color:"#ff79c6"}}>Dracula Themes</h1>
+            <p/>
+            <p>
+              Dracula is unequivocally the best theme. Dark themes are a no
+              brainer - I like my eyeballs intact, thank you very much. And
+              Dracula's colorscheme is simply gorgeous. With that in mind, I've
+              contributed several implementations of the theme...
+           </p>
 
             <a href="https://github.com/dracula/matplotlib">
               <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=dracula&repo=matplotlib&show_owner=true&theme=dracula&hide_border=true" width="32.7%"/>
@@ -65,7 +68,7 @@ class Dracula extends React.Component {
             <a href="https://github.com/dracula/solidworks">
               <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=dracula&repo=solidworks&show_owner=true&theme=dracula&hide_border=true" width="32.7%"/>
             </a>
-			<p>
+            <p>
               <center>
                 <br />
                 Check out&nbsp;
@@ -73,7 +76,7 @@ class Dracula extends React.Component {
                   draculatheme.com
                 </a> for more themes
               </center>
-			</p>
+            </p>
           </div>
         </div>
       </div>
