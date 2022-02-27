@@ -1,8 +1,9 @@
 RewriteEngine On
 
 # Some alternate urls
-RewriteRule ^pgp$ https://tim.clifford.lol/tim_clifford.gpg [L,R=301]
-RewriteRule ^gpg$ https://tim.clifford.lol/tim_clifford.gpg [L,R=301]
+RewriteRule ^pgp$ https://tim.clifford.lol/tim_clifford.asc [L,R=301]
+RewriteRule ^gpg$ https://tim.clifford.lol/tim_clifford.asc [L,R=301]
+RewriteRule ^tim_clifford.gpg$ https://tim.clifford.lol/tim_clifford.asc [L,R=301]
 
 ## This was the url in my email footer for a bit
 RewriteRule ^why_pgp$ https://tim.clifford.lol/why-pgp [L,R=301]
