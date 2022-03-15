@@ -1,3 +1,9 @@
+
+
+| :exclamation:  | This has been replaced by https://git.sr.ht/~tim-clifford/tim.clifford.lol  |
+|----------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+
 # https tim.clifford.lol
 
 This repo contains the source code for
